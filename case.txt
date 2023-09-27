@@ -1,0 +1,50 @@
+Claro, aqui está um case fictício para um analista de software desenvolver um CRUD (Create, Read, Update, Delete) com as tecnologias mencionadas:
+
+**Título do Projeto**: Desenvolvimento de um Sistema de Gerenciamento de Tarefas
+
+**Descrição do Projeto**:
+Você foi contratado para desenvolver um sistema de gerenciamento de tarefas que permitirá aos usuários criar, visualizar, atualizar e excluir tarefas. O sistema deve ser construído usando as seguintes tecnologias:
+
+1. **Front-end**: Utilize o Angular 8 para criar a interface do usuário. O sistema deve permitir que os usuários criem novas tarefas, visualizem a lista de tarefas existentes, atualizem informações das tarefas e as excluam.
+
+2. **Back-end**: Crie uma API em Python usando AWS Lambda ou ECS (Elastic Container Service). A API deve ser responsável por gerenciar as operações CRUD das tarefas. Ela deve se comunicar com um banco de dados RDS (Relational Database Service) para armazenar e recuperar os dados das tarefas.
+
+**Desenho de Solução**:
+
+- **Front-end (Angular 8)**:
+  - Crie componentes para a criação, listagem, atualização e exclusão de tarefas.
+  - Utilize serviços para se comunicar com a API back-end.
+  - Implemente roteamento para navegar entre as páginas.
+  - Garanta que a interface seja responsiva e amigável ao usuário.
+
+- **Back-end (Python com AWS Lambda ou ECS)**:
+  - Crie endpoints para cada operação CRUD (Create, Read, Update, Delete).
+  - Utilize bibliotecas como Flask ou FastAPI para construir a API.
+  - Implemente autenticação e autorização, se necessário.
+  - Configure a conexão com o banco de dados RDS.
+
+- **Banco de Dados (RDS)**:
+  - Crie uma tabela para armazenar as informações das tarefas.
+  - Defina relacionamentos e índices conforme necessário.
+
+- **Observabilidade**:
+  - Implemente métricas e logs para monitorar o desempenho do sistema.
+  - Utilize serviços como AWS CloudWatch para rastreamento de logs e métricas.
+
+- **Comentários de Código**:
+  - Documente o código de forma clara e concisa.
+  - Utilize comentários para explicar partes complexas ou não óbvias do código.
+
+**Requisitos Adicionais**:
+- Implemente testes unitários para garantir a robustez do sistema.
+- Garanta que o sistema seja escalável para lidar com um grande número de tarefas.
+- Implemente validações de entrada para evitar dados incorretos no banco de dados.
+- Mantenha a segurança em mente, protegendo contra ataques comuns, como injeção de SQL e CSRF.
+
+**Entregáveis**:
+- Código-fonte do front-end em Angular 8.
+- Código-fonte do back-end em Python.
+- Configurações de implantação (por exemplo, scripts de implantação para AWS Lambda ou configurações para ECS).
+- Documentação técnica que descreva o funcionamento do sistema e como implantá-lo.
+
+Lembre-se de seguir as melhores práticas de desenvolvimento de software, mantendo o código limpo, bem organizado e documentado. Além disso, teste exaustivamente o sistema antes de entregá-lo aos usuários finais.
